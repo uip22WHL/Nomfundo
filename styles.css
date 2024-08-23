@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./nomfundo.jpg) no-repeat center center/ cover; 
+    height: 100vh;
+    font-family:'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+max-width: 1200px;
+margin: auto;
+padding: 0 10px;
+overflow: outo;
+border: 2px white;
+}
+
+header {
+    background-color: blue;
+}
+
+header nav  hl {
+    float: left;
+    padding: 10px;
+}
+
+header nav ul {
+    float: right;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+
+header nav ul li a {
+    font-size: 10px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+header nav ul li a:hover{
+    color:blue;
+    background-color:lightgray;
+}
+
+
+
